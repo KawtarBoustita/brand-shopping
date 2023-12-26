@@ -1,0 +1,221 @@
+﻿.center {
+    text-align :center ;
+}
+
+.center-page{
+    width :300px;
+    height :300px;
+    position :absolute;
+    top :-40px;
+    bottom :0;
+    left :0;
+    right :0;
+    margin :auto ;
+}
+.footer-pos{
+    width :auto ;
+    height :auto ;
+    position :absolute;
+    top :600px;
+    bottom :0;
+    left :0;
+    right :0;
+    margin :auto ;
+}
+
+/* VIew all Proudcts css*/
+
+.probrand{
+    font-size:15px;
+    font-weight:600;
+    line-height:15px;
+    text-transform:uppercase;
+    font-family:sans-serif;
+}
+.proName{
+    font-size:13px;    
+    line-height:17px;  
+    font-family:sans-serif;
+}
+
+.proPrice{
+    font-size:14px;    
+    line-height:17px;  
+    font-family:sans-serif;
+    font-weight:600;
+}
+.proOgPrice{
+    font-size:13px;    
+    line-height:17px;  
+    font-family:sans-serif;
+    font-weight:400;
+    text-decoration:line-through;
+    color:gray;
+}
+.proPriceDiscount{
+    font-size:13px;    
+    
+    font-family:sans-serif;
+    font-weight:400;
+    
+    color:deeppink;
+}
+
+/*ProductView*/
+
+.proNameView{
+    font-size:20px;    
+    line-height:25px;  
+    font-family:sans-serif;
+    color:#696e80;
+
+}
+.proOgPriceView{
+    font-size:15px;    
+   
+    font-family:sans-serif;
+    font-weight:400;
+    text-decoration:line-through;
+    color:gray;
+}
+.proPriceDiscountView{
+    font-size:15px;    
+    
+    font-family:sans-serif;
+    font-weight:400;
+    
+    color:deeppink;
+}
+.proPriceView{
+    font-size:16px;    
+    line-height:17px;  
+    font-family:sans-serif;
+    font-weight:600;
+    margin-top:10px;
+}
+.divDet1{
+    border-bottom:1px dashed #D5D6D8;
+    margin-bottom:20px;
+
+}
+.h5size{
+   font-weight:600;
+}
+.input[type=radio]{
+    margin-right:10px;
+    margin-left:10px;
+}
+.mainButton{
+    border-radius:3px;
+    outline:0;
+    margin-top:10px;
+    min-height:22px;
+    font-size:13px;
+    min-width:108px;
+    font-weight:500;
+    background-color:#FF5722;
+    padding:10px 15px;
+    border:1px solid #FF5722;
+    color:#fff;
+
+
+}
+#btnCart{
+    margin-right:6px;
+}
+
+.RemoveButton1
+{
+border-radius:3px;
+outline:0;
+margin-top:10px;
+font-size:13px;
+min-height:22px;
+min-width:90px;
+font-weight:500;
+background-color:#FF5722;
+border:1px solid #FF5722;
+color:#fff;
+
+}
+
+.priceGray{
+font-size:15px;
+font-family:sans-serif;
+font-weight:400;
+color:dimgray;
+}
+
+.priceGreen{
+font-size:15px;
+font-family:sans-serif;
+font-weight:400;
+color:#20bd99;
+}
+
+.proNameViewCart{
+font-size:15px;
+line-height:25px;
+font-family:sans-serif;
+font-weight:600;
+color:#696e80;
+}
+
+.buyNowbtn{
+border-radius:3px;
+outline:0;
+margin-top:10px;
+margin-bottom:20px;
+font-size:13px;
+min-height:22px;
+padding:10px 15px;
+font-weight:500;
+background-color:#14cda8;
+color:#fff;
+border:1px solid #14cda8;
+width:100%;
+
+}
+
+/* styles.css */
+/* Add custom styles here if needed */
+
+.payment-methods {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.payment-logo {
+    max-width: 100px; /* Adjust the size as needed */
+    margin: 0 10px;
+}
+.custom-button {
+    background-color: #007bff; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding (top/bottom, left/right) */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style on hover */
+    font-size: 16px; /* Font size */
+}
+
+    /* Hover effect for the button */
+    .custom-button:hover {
+        background-color: #0056b3; /* Background color on hover */
+    }
+/*color*/
+.custom-radio-list label[for*="rblColor_1"] {
+    color: red;
+}
+
+.custom-radio-list label[for*="rblColor_2"] {
+    color: green;
+}
+
+.custom-radio-list label[for*="rblColor_3"] {
+    color: blue;
+}
+
+.custom-radio-list label[for*="rblColor_4"] {
+    color: pink;
+}
